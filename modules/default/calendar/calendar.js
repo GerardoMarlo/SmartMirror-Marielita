@@ -9,7 +9,7 @@
 Module.register("calendar", {
 	// Define module defaults
 	defaults: {
-		maximumEntries: 10, // Total Maximum Entries
+		maximumEntries: 5, // Total Maximum Entries
 		maximumNumberOfDays: 365,
 		limitDays: 0, // Limit the number of days shown, 0 = no limit
 		displaySymbol: true,
@@ -45,7 +45,7 @@ Module.register("calendar", {
 		calendars: [
 			{
 				symbol: "calendar-alt",
-				url: "https://www.calendarlabs.com/templates/ical/US-Holidays.ics"
+				url: "https://calendar.google.com/calendar/ical/gerardomartinez1999.gm%40gmail.com/private-77f91e804c44a6b93b12ca949e92e790/basic.ics"
 			}
 		],
 		titleReplace: {

@@ -6,13 +6,14 @@
  * By Michael Teeuw https://michaelteeuw.nl
  * MIT Licensed.
  */
+
 Module.register("clock", {
 	// Module config defaults.
 	defaults: {
 		displayType: "digital", // options: digital, analog, both
-
+		
 		timeFormat: config.timeFormat,
-		timezone: null,
+		timezone: "America/Hermosillo",
 
 		displaySeconds: true,
 		showPeriod: true,
@@ -32,8 +33,8 @@ Module.register("clock", {
 
 		showSunTimes: false,
 		showMoonTimes: false,
-		lat: 47.630539,
-		lon: -122.344147
+		lat: 31.30862, 
+		lon: -110.942169,
 	},
 	// Define required scripts.
 	getScripts: function () {

@@ -18,12 +18,12 @@ WeatherProvider.register("openweathermap", {
 	defaults: {
 		apiVersion: "2.5",
 		apiBase: "https://api.openweathermap.org/data/",
-		weatherEndpoint: "", // can be "onecall", "forecast" or "weather" (for current)
-		locationID: false,
-		location: false,
-		lat: 0, // the onecall endpoint needs lat / lon values, it doesn'T support the locationId
-		lon: 0,
-		apiKey: ""
+		weatherEndpoint: "/weather", // can be "onecall", "forecast" or "weather" (for current)
+		locationID: 4004886,
+		location: "Nogales, MX",
+		lat: 31.30862, // the onecall endpoint needs lat / lon values, it doesn'T support the locationId
+		lon: -110.942169,
+		apiKey: "a7f5bf1fea4541a5d347bf4a72fff5e1"
 	},
 
 	// Overwrite the fetchCurrentWeather method.
