@@ -68,8 +68,9 @@ Temporary Items
 /css/custom.css
 
 # Ignore users config file but keep the sample.
-/config/*
-!/config/config.js.sample
+#/config/*
+#!/config/config.js.sample 
+#lineas comentadas para descargar mi archivo entero desde git
 
 # Vim
 ## swap
