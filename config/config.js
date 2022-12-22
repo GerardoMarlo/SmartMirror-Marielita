@@ -8,7 +8,7 @@
  * and https://docs.magicmirror.builders/modules/configuration.html
  */
 let config = {
-	address: "0.0.0.0", 	// Address to listen on, can be:
+	address: "localhost", 	// Address to listen on, can be:
 							// - "localhost", "127.0.0.1", "::1" to listen on loopback interface
 							// - another specific IPv4/6 to listen on a specific interface
 							// - "0.0.0.0", "::" to listen on any interface
@@ -100,7 +100,7 @@ let config = {
 		{
 			module: 'MMM-Remote-Control',
 			// uncomment the following line to show the URL of the remote control on the mirror
-			position: 'bottom_left',
+			//position: 'bottom_left',
 			// you can hide this module afterwards from the remote control itself
 			config: {
 				customCommand: {},  // Optional, See "Using Custom Commands" below
