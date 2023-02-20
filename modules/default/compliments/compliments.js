@@ -8,10 +8,12 @@ Module.register("compliments", {
 	// Module config defaults.
 	defaults: {
 		compliments: {
-			anytime: ["Qué bonita te ves, mi amor","aaaa me encantas :)","mmmuak","muak muak muak muak"],
-			morning: ["Good morning baby mariel", "Have a fluffy day", "Buenos días mi amorr","Vamos a worky, mami"],
+			anytime: ["Qué bonita te ves, mi amor","aaaa me encantas :)","mmmuak","muak muak muak muak","Hola angel baby","Angel baby baby baby baby","Te amo angel baby",
+						"Angel Mariel yo a usted la amo"],
+			morning: ["Good morning baby mariel", "Have a fluffy day", "Buenos días mi amorr","Vamos a worky, mami","Vámonos a worky Sir Baby",
+						"Buenos días sirr baby","buenos días baby baby baby baby Mariel","Bonito día princesa"],
 			afternoon: ["Mi niña guapaa", "Guapaaaaaaaaa ","Qué guapa te vesss"],
-			evening: ["A mimir mi amor", "Resty mariel", "Sleepy Mariel","Sleepy bebe","kith good night baby Mariel"],
+			evening: ["A mimir mi amor", "Resty mariel", "Sleepy Mariel","Sleepy bebe","kith good night baby Mariel","A descansar sir baby","A mimir princesa"],
 			"....-01-01": ["Mi amorrrr feliz añooo te adoro", "Happy new year baby mariel","iii new year kith"],
 			"....-01-15": ["Feliz cumpleañosss mi amorrrr","Birthday girl","Feliz cumpleaños mami"],
 			"....-12-25": ["Feliz navidad mi amorrrr","Christmas mood","Jo JO JO marlo is a hoe"],
@@ -20,9 +22,9 @@ Module.register("compliments", {
 			"....-12-27": ["iiii 10 mesitos mi amor casi 1 año jiji"],
 			"....-01-27": ["iiii 11 mesitos mi amor casi 1 año jiji"],
 			"....-02-14": ["Do you wanna be my valentine?"],
-			"....-02-27": ["iiii un año juntos mi niña <3"],
-			"....-03-27": ["iiii un año y 1 mes mi amor ya casi 2 años jiji"],
-			"....-04-27": ["iiii un año y 2 meses mi vida ya casi 2 años jiji"],
+			"....-02-26": ["iiii un año juntos mi niña <3"],
+			"....-03-26": ["iiii un año de novios amor de mi vida","añitooo de novios mami", "parpadeamos y llegamos al año baby baby"],
+			"....-04-26": ["iiii un año y 2 meses mi vida ya casi 2 años jiji"],
 
 		},
 		updateInterval: 300000,
