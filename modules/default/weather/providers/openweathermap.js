@@ -19,10 +19,9 @@ WeatherProvider.register("openweathermap", {
 		apiVersion: "2.5",
 		apiBase: "https://api.openweathermap.org/data/",
 		weatherEndpoint: "/weather", // can be "onecall", "forecast" or "weather" (for current)
-		locationID: 4004886,
-		location: "Nogales, MX",
-		lat: 31.30862, // the onecall endpoint needs lat / lon values, it doesn'T support the locationId
-		lon: -110.942169,
+		lat: 20.7236,
+		lon: -103.3848, // Zapopan, Jalisco
+		location: "Zapopan, MX",
 		apiKey: "a7f5bf1fea4541a5d347bf4a72fff5e1"
 	},
 
